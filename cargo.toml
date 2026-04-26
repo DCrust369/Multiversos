@@ -1,0 +1,3 @@
+[profile.release]
+panic = "abort"   # sem kernel panic — sem unwind
+overflow-checks = true
