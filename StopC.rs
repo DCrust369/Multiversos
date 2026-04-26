@@ -1,23 +1,18 @@
-fn main () {
-    use::c;
-    use::tokio;
-    use::linux;
-    use::kernel;
-    let mut impl = C;
-    let mut impl = stop;
-    let mut impl = buffer_over_flow;
-    let impl buffer_over_flow = (false(loop));
-    let impl buffer_over_flow = loop;
-    let impl memory_leaks = false;
-    use::c;
-    use::tokio;
-    use::linux;
-    use::kernel;
-    let mut impl = c;
-    let mut impl = stop;
-    let mut impl = memory_leaks
-    memory_leaks = (false(loop(resumindo)));
-    memory_leaks = loop;
-    let C = (memory(leaks(false)));
-    let C = (buffer(over(flow(false))));
+// direitos autorais (Rust) DCrust 16/04/2026
+use std::sync::atomic::{AtomicBool, Ordering};
+use std::sync::Arc;
+
+fn main() {
+    let buffer_overflow: Arc<AtomicBool> = Arc::new(AtomicBool::new(false));
+    let memory_leaks: Arc<AtomicBool> = Arc::new(AtomicBool::new(false));
+
+    loop {
+        let bof = buffer_overflow.load(Ordering::SeqCst);
+        let ml = memory_leaks.load(Ordering::SeqCst);
+
+        if bof { break; }
+        if ml  { break; }
+
+        break;
+    }
 }
