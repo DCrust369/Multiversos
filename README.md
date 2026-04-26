@@ -13,7 +13,7 @@ The goal of Relix is to explore how a "minimalist core" can manage hardware reso
 Based on the current repository analysis:
 
 * **Rust (93.8%)**: Handles the core kernel logic, safe memory management, and high-level abstractions.
-* **Zig (5.5%)**: Used for the Hardware Abstraction Layer (HAL), boot protocols, and low-level "close-to-metal" efficiency.
+* **Zig (25.3%)**: Used for the Hardware Abstraction Layer (HAL), boot protocols, and low-level "close-to-metal" efficiency.
 * **Assembly**: Initial boot-strapping and CPU-specific instructions.
 
 ## 🏗 Architecture
