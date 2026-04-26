@@ -1,31 +1,38 @@
-fn main () {
-  let asm: u8 = energy; // ele recebe a energia mas por tanto ainda com 8 bytes de carga
-  let asm: u16 = logo; // ele carrega a logo da marca do computador
-  let asm: u32 = senha; // ele carrega a senha
-  let asm: u64 = interface;
-  {
-    // bloco 1 // block 1
-    let face: u128 = gnu;
-    let face: u64 = gnome; // i use arch NO i use fedora BTW (by to way)
-    let face: u256 = kde_plasma;
-    let face: u512 = rice; // this kernel is a easy kernel for linux user
-    // suporting for interfaces
-    let mut face = gnu;
-    let mut face = gnome;
-    let mut face = kde_plasma;
-    let mut face = xfce;
-    let rice: type = interface_for_your_likes; // sorry i don't speak english
-    // bloco 2 // block 2
-    mod casa_decimal: u1024 = UP;
-    // exemple 16 --> 32 --> 64
-    use::files;
-    use::wake_upC.asm;
-    use::wake_up_C2.asm;
-    // ajustes
-    let mut security_boot = false; // i am not corporation
-    let BIOS: type = true;
-    let NoPanic.zig = true;
-    use::NoPanic.zig;
-    // no segmentation fault or kernel panic but it's my errors
-  }
+// Simulando os tipos que não existem nativamente
+type U256 = [u64; 4]; 
+type U512 = [u64; 8];
+
+fn main() {
+    // Bloco Inicial: Carregamento de Hardware
+    let _energy: u8 = 255;       // 8 bits de carga
+    let _logo: u16 = 0x1060;     // ID da logo
+    let _senha: u32 = 123456;    
+    let _interface: u64 = 0;     // Endereço da interface
+
+    {
+        // Bloco 1: Interfaces de Usuário
+        let _gnu: u128 = 1;
+        let _gnome: u64 = 2; 
+        let _kde_plasma: U256 = [0; 4];
+        let _rice: U512 = [0; 8]; // Kernel customizado/estilizado
+
+        // Em Rust, para mudar o valor, usamos mut
+        let mut face_ativa = "Fedora"; 
+        face_ativa = "Arch"; // "I use Arch BTW"
+        
+        println!("Interface atual: {}", face_ativa);
+
+        // Bloco 2: Configurações de Boot
+        // No Rust, constantes decimais grandes não usam 'mod'
+        let _casa_decimal: f64 = 1024.0;
+
+        // Ajustes de Segurança
+        let mut _security_boot = false; // "I am not corporation"
+        let _bios_active: bool = true;
+        let _no_panic_zig: bool = true;
+
+        if _no_panic_zig {
+            println!("Status: No Segmentation Fault. Kernel está estável.");
+        }
+    }
 }
