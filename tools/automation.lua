@@ -1,7 +1,11 @@
-if bash = terminal else
-    elif build.zig
-if bash = cargo_run else
-    elif bash = terminal
-if bash = emprestimo_zig.rs else
-    elif bash = zig_run
+local bash = "terminal"
+
+if bash == "terminal" then
+    -- build.zig
+elseif bash == "cargo_run" then
+    -- cargo run
+elseif bash == "zig_run" then
+    -- zig run
+elseif bash == "emprestimo_zig" then
+    -- emprestimo
 end
