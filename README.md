@@ -1,4 +1,4 @@
-# Stax
+# VoidShield-Kernel
 
 A minimalist microkernel study inspired by the Linux kernel, built with modern systems programming languages.
 
@@ -6,7 +6,7 @@ A minimalist microkernel study inspired by the Linux kernel, built with modern s
 
 Relix is an **experimental hobby** focused on operating system internals and microkernel architecture. It started as an exercise in rewriting critical kernel components from C to **Zig**, and has since evolved into a robust codebase dominated by **Rust**.
 
-The goal of Relix is to explore how a "minimalist core" can manage hardware resources while maintaining strict memory safety and stability.
+The goal of VoidShield-Kernel is to explore how a "minimalist core" can manage hardware resources while maintaining strict memory safety and stability.
 
 ## 🛠 Tech Stack
 
