@@ -45,11 +45,3 @@ fn main() {
     let any_ok = results.iter().any(|r| r.loaded);
     process::exit(if any_ok { 0 } else { 1 });
 }
-
-fn print_banner() {
-    println!("{}", "╔══════════════════════════════════════════════════════╗".purple().bold());
-    println!("{}", "║        DE Loader  v1.0  —  Linux Library Manager     ║".purple().bold());
-    println!("{}", "║   GNOME · GNU · XFCE · KDE Plasma · LXDE             ║".purple().bold());
-    println!("{}", "╚══════════════════════════════════════════════════════╝".purple().bold());
-    println!();
-}
