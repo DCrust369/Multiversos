@@ -1,0 +1,17 @@
+SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0 OR MIT
+Copyright (c) 2026 DCrust
+Universos - Focused on Cybersecurity and Pentesting
+
+Com este kernel não me responsabiliso de danos ou seja hacking ou quaisquer fins ilegais isto é apenas um projeto de estudo pessoal ou hobby.
+
+With this kernel I am not responsible for damages, i.e. hacking or any illegal purposes, this is just a personal study project hobby.
+
+Con este kernel no me hago responsable de daños, es decir, de hackeo ni de fines ilegales, esto es solo un proyecto de estudio personal o afición.
+
+Avec ce noyau, je ne suis pas responsable des dommages, c'est-à-dire du piratage ou de tout usage illégal, c'est juste un projet d'étude ou un passe-temps personnel.
+
+Bei diesem Kernel übernehme ich keine Verantwortung für Schäden, also Hacking oder illegale Zwecke, das ist lediglich ein persönliches Studienprojekt oder Hobby.
+
+W tym jądrze nie ponoszę odpowiedzialności za szkody, czyli za hakowanie czy jakiekolwiek nielegalne cele, to tylko mój osobisty projekt naukowy lub hobby.
+
+С этим ядром я не несу ответственности за ущерб, то есть за взлом или любые незаконные цели, это просто личный учебный проект или хобби.
