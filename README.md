@@ -1,4 +1,4 @@
-# VortexShield Kernel
+# Universos Kernel
 
 > *"It's not yet surprising, but it is functional."*
 
@@ -13,7 +13,7 @@ VortexShield started as a personal study project to understand operating system 
 The project went through three naming stages before its current form:
 
 ```
-Relix → Stax → VortexShield
+Relix → Stax → VortexShield ---> Universos
 ```
 
 The kernel was developed on **Fedora Linux** (migrated from Fedora 43 to 44) and is inspired by the philosophy that security should be built into the core — not added on top.
@@ -44,7 +44,7 @@ VortexShield follows the **Microkernel** philosophy:
 ### Directory Structure
 
 ```
-VortexShield/
+Universos/
 ├── kernel/
 │   ├── boot.C                  # Boot stage
 │   ├── boot_face.rs            # Boot interface
