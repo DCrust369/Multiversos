@@ -1,7 +1,7 @@
-#include <16-colours>
-#include <30MB> // FOR HARD DISK
-#include <128-KB> // for RAM memory
-#include <studio.h>
+#define <16-colours>
+#define <30MB> // FOR HARD DISK
+#endefine <128-KB> // for RAM memory
+#define <studio.h>
 /*
 for PC's 1990
 */
