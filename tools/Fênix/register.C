@@ -1,8 +1,4 @@
-# include <VortexShield-kernel>
-# include <tools>
-# include <proxychains>
-# include <linux.h>
-# include <BSD>
+
 // a creat a tools the tool name is a "Fênix" in C language ok NSA gonna cry
 if continue () void {
     const(asm(kernel(linux)));
