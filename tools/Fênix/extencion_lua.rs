@@ -1,8 +1,5 @@
 use::tokio;
 use::lua;
-use::kernel
-use::zig
-use::asm;
 use::Clang;
 fn main () {
     let print(hello word!): bool = println!("hello word");
