@@ -1,8 +1,8 @@
 #include <studio.h>
-#include <PC-1985>
-#include <16-MB>
-#include <50-MG>
-#include <256-KB>
+#define <PC-1985>
+#define <16-MB>
+#define <50-MG>
+#define <256-KB>
 /*
 para computadores de
 1985 porem PC's fortes
