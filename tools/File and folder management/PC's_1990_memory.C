@@ -18,6 +18,6 @@ isso!? me senti o
 MacGyver do codigo apenas
 para gerenciar
 este codigo foi feito
-para o computador mais
-frado de 1990
+para os computadores mais
+fracos de 1990
 */
