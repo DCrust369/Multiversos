@@ -21,9 +21,12 @@ pub fn mapeamento() void {
     print("you are hacked, {s}!\n", .{"kiil switch"});
 }
 
-/*as minhas dicas são
+/*
+as minhas dicas são
 - use uma vpn confiavel
 - tenha um bom senso
 digital
 - use um antivirus
-- atualiza o seu sistema */
+- atualiza o seu sistema
+ */
+// essas dicas são para iniciantes
