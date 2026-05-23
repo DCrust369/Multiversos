@@ -25,6 +25,6 @@ continue c_long active-safe-or-non-active-safe() {
     .const rs: i32 = compiler(rustc);
     .const c_shor {
         .const non-active-safe: i8 = (c(=));
-        .const c: = compiler(gcc); // gnu project
+        .const c: = compiler(clang); // gnu project
     }
 }
