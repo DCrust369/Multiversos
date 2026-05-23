@@ -105,7 +105,7 @@ Leyernet  →  control of Assembly, readable by beginners
 | Kernel core | ✅ Functional |
 | NoMalware subsystem | ✅ Active |
 | x86_64 support | ✅ Primary target |
-| ARM port | 🔧 In progress |
+| ARM port | ✅  In progress |
 | RISC-V port | 🔧 In progress |
 | Memory allocator | 🔧 In progress |
 | Task scheduling | 🔧 In progress |
