@@ -4,7 +4,7 @@
 
 const std = @import("std"); // i whiting a leyernet language
 
-pub fn main ()void {
+const pub fn main ()void {
 	.const asm: type = asm_controler;
 	.const Clang: type = C_controler;
 	.const RS: type = rust_controler;
