@@ -21,5 +21,3 @@ sudo dnf update && sudo xor upgrade # pegando a atualização dos outros como o 
 mkdir leterminal
 cd ~/leterminal
 nano terminal_functions.lua
-
-
