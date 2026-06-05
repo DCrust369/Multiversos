@@ -1,6 +1,7 @@
 # Universos Kernel
 
-> *"It's not yet surprising, but it is functional."*
+> **"It's not yet surprising, but it is functional."**
+> **"but sometimes I doubt if it works or not since it is always under maintenance or always has new code"**
 
 A minimalist microkernel built with modern systems programming languages, focused on **security**, **privacy**, and **memory safety**.
 
