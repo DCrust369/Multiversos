@@ -20,6 +20,7 @@ Relix → Stax → VortexShield ---> Universos --> Multiversos
 The kernel was developed on **Fedora Linux** (migrated from Fedora 43 to 44) and is inspired by the philosophy that security should be built into the core — not added on top.
 
 ---
+Created in **22/04/2026**
 
 ## 🛠 Tech Stack
 
