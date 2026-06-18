@@ -1,23 +1,13 @@
-#define <16-colours>
-#define <30MB> // FOR HARD DISK
-#endefine <128-KB> // for RAM memory
-#define <studio.h>
-/*
-for PC's 1990
-*/
-continue asm () {
-    const 30mb: i32 = (terminal(bash(code))); // 15 sobre 16 mais 2 e era um buffer overflow então mudei para i32
-    const 128kb: i16 = (shell(bash)); // longe de um buffer overflow
-    const 16kb: i16 = (blue(gree())); // 15 para um i16 foi quase!
-    const 8kb: i8 = (red()); // nossa um 8 direitinho!
+#include <stdio.h>
+
+const int main(void)
+{
+    int32_t 30mb = (terminal(bash(code)));
+    const int32_t t* = malloc(sizeof);
+    //
+    int16_t 128kb = (shell(bash));
+    const int16_t s* = malloc(sizeof);
+    // 
+    int16_t 16kb = (blue(gree()));
+    const int8_t = (red());
 }
-/*
-como que as pessoas de
-antigamente faziam
-isso!? me senti o
-MacGyver do codigo apenas
-para gerenciar
-este codigo foi feito
-para os computadores mais
-fracos de 1990
-*/
