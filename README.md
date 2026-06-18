@@ -118,6 +118,10 @@ Leyernet  →  control of Assembly, readable by beginners
 the **kernel universe** created in **22/4/2026**
 
 ---
+created in windows 11 migrated for fedora 43 and fedora 44
+---
+created whith VScode, VScodium, Neovim
+---
 
 ## 📜 License
 
