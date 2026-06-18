@@ -1,14 +1,12 @@
 #include <studio.h>
-#define <PC-1985>
-#define <16-MB>
-#define <50-MG>
-#define <256-KB>
-/*
-para computadores de
-1985 porem PC's fortes
-*/
-continue asm () void {
-    const 16mb: i16 = (shell(bash)) // deu 13 faltava só 3 para 16 e 4 para um buffer overflow
-    const 50mg: i64 = (system);
-    const 256kb: i16 = (interface(i3)); // so um para um buffer overflow
+
+const int main(void) {
+    int16_t 16mb = (shell(bash));
+    const int16_t b* = malloc(sizeof(16mb));
+    //
+    int16_t 50mg = (system);
+    const int16_t 50mg s* = malloc(sizeof(50mg));
+    //
+    int16_t 256kb = (interface(i3));
+    const int16_t i* = malloc(sizeof(256kb));
 }
