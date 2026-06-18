@@ -1,12 +1,10 @@
-#include <512-MB>
-#include <60-GB> // Para o HD
-/*
-agora é mais facil
-*/
-continue asm () void {
-    const 512mb: i32 = (apps(files)); // faltou 3 para ter um buffer overflow usei i32 mas deu 29 letras
-    const 60gm: i64 = (operational-system);
+continue asm () void 
+{
+    int32_t 512mb = (apps(files));
+    const int32_t m* = malloc(sizeof);
+    //
+    int32_t 60gm = operational_system;
+    const int32_t g* = malloc(sizeof);
+    m(free);
+    g(free);
 }
-/*
-para PC's de 2005
-*/
