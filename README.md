@@ -1,4 +1,4 @@
-# Universos Kernel
+# Multiversos Kernel
 
 > **"It's not yet surprising, but it is functional."**
 > **"but sometimes I doubt if it works or not since it is always under maintenance or always has new code"**
