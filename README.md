@@ -14,7 +14,7 @@ VortexShield started as a personal study project to understand operating system 
 The project went through three naming stages before its current form:
 
 ```
-Relix → Stax → VortexShield ---> Universos
+Relix → Stax → VortexShield ---> Universos --> Multiversos
 ```
 
 The kernel was developed on **Fedora Linux** (migrated from Fedora 43 to 44) and is inspired by the philosophy that security should be built into the core — not added on top.
