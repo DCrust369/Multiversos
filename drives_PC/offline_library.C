@@ -4,26 +4,25 @@
 
 // Simulando o carregamento de drivers
 void carregar_sistema() {
-    bool driver_hardware_carregado = true;
+    bool driver_hardware_loaded = true;
     uint64_t status_driver = 1;
 
-    printf("Iniciando detecção de hardware...\n");
+    printf("start detection...\n");
 
-    // Em C real, você usaria bibliotecas específicas para detectar CPU/GPU
-    int hardware_tipo = 1; // 1 para Intel, 2 para AMD
+    int hardware_type = 1;
 
     if (hardware_tipo == 1) {
-        printf("Hardware Intel detectado.\n");
+        printf("the intel hardware it's a detect.\n");
     } else {
-        printf("Hardware AMD detectado.\n");
+        printf("the amd is detect.\n");
     }
 
     if (driver_hardware_carregado) {
-        printf("Drivers carregados com sucesso.\n");
+        printf("drives is a loads whith sucess.\n");
     }
 }
 
 int main() {
-    carregar_sistema();
+    load_system();
     return 0;
 }
