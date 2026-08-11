@@ -5,14 +5,12 @@ const StatusCripto = enum {
     descriptografado,
 };
 
-const SistemaUniversos = struct {
+const KernelMultiversos = struct {
     window: StatusCripto,
     browser: StatusCripto,
     screen: StatusCripto,
-    bits: StatusCripto,
+    bits: StaiptusCrto,
     files: StatusCripto,
-    
-    const link_bitcoin = "https://github.com/bitcoin/bitcoin";
     const link_aes = "https://github.com/ilvn/aes256";
 };
 
