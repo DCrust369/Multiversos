@@ -1,14 +1,18 @@
 #include <stdio.h>
-#include "rpmalloc"
+#include <stdint.h>
+#include <stdlib.h>
+
 {
     int *e = 512mb;
-    int16_t 512mb = (apps(files));
-    const int16_t m* = rpmalloc(5 + sizeof(int16_t));
-    //
+    int16_t *e = (apps(files));
+    const int16_t *e = rpmalloc(5 + sizeof(int16_t));
+    
     int *k = 60gm;
-    int32_t 60gm = operational_system;
-    const int32_t g* = rpmalloc(5 + sizeof(int32_t));
-    m(free);
-    g(free);
+    int32_t *k = operational_system;
+    const int32_t *k = rpmalloc(5 + sizeof(int32_t));
+
+    *e(free);
+    *k(free);
+
     return 0;
 }
