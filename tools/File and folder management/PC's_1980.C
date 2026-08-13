@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <malloc>
+#include <stdint.h>
+#include <stdlib.h>
 
 const int main(void) {
     int16_t 16mb = shell_bash;
